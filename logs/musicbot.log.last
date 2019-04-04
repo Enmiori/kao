@@ -1,0 +1,45 @@
+[115.941047668] 2019-03-23 18:21:47,618 - INFO - launcher: Starting sanity checks
+[139.918804169] 2019-03-23 18:21:47,642 - INFO - launcher: Checking for Python 3.5+
+[152.911663055] 2019-03-23 18:21:47,655 - INFO - launcher: Checking console encoding
+[162.906646729] 2019-03-23 18:21:47,665 - INFO - launcher: Setting console encoding to UTF-8
+[163.905143738] 2019-03-23 18:21:47,666 - INFO - launcher: Ensuring we're in the right environment
+[213.876724243] 2019-03-23 18:21:47,716 - INFO - launcher: Adding local bins/ folder to path
+[2987.810850143] 2019-03-23 18:21:50,490 - INFO - launcher: Required checks passed.
+[2988.808155060] 2019-03-23 18:21:50,491 - INFO - launcher: Optional checks passed.
+[2989.809989929] 2019-03-23 18:21:50,492 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[5.3873362541198730] 2019-03-23 18:21:52,889 - INFO - musicbot.config | In config.py::MainThread(13816), line 127 in run_checks: Using i18n: config/i18n/en.json
+[5.3923335075378418] 2019-03-23 18:21:52,894 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 226 in _setup_logging: Set logging level to INFO
+[5.3953323364257812] 2019-03-23 18:21:52,897 - DEBUG - musicbot.json | In json.py::MainThread(13816), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[5.4562973976135254] 2019-03-23 18:21:52,958 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 91 in __init__: Starting MusicBot 1.9.8_4
+[5.4572978019714355] 2019-03-23 18:21:52,959 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 97 in __init__: Loaded autoplaylist with 2530 entries
+[8.9911170005798340] 2019-03-23 18:21:56,493 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 922 in on_ready: Connection established, ready to go.
+[8.9921188354492188] 2019-03-23 18:21:56,494 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 340 in _cache_app_info: Caching app info
+[9.2879478931427002] 2019-03-23 18:21:56,790 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 744 in _scheck_ensure_env: Ensuring data folders exist
+[9.2959451675415039] 2019-03-23 18:21:56,798 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 760 in _scheck_server_permissions: Checking server permissions
+[9.2959451675415039] 2019-03-23 18:21:56,798 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 764 in _scheck_autoplaylist: Auditing autoplaylist
+[9.2969424724578857] 2019-03-23 18:21:56,799 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 768 in _scheck_configs: Validating config
+[9.2969424724578857] 2019-03-23 18:21:56,799 - DEBUG - musicbot.config | In config.py::MainThread(13816), line 217 in async_validate: Validating options...
+[9.2979419231414795] 2019-03-23 18:21:56,800 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 771 in _scheck_configs: Validating permissions config
+[9.2979419231414795] 2019-03-23 18:21:56,800 - DEBUG - musicbot.permissions | In permissions.py::MainThread(13816), line 94 in async_validate: Validating permissions...
+[9.2979419231414795] 2019-03-23 18:21:56,800 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 939 in on_ready: Connected: 558554209310605322/Mirai Kuriyama#8232
+[9.3009412288665771] 2019-03-23 18:21:56,803 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 947 in on_ready: Owner:     218299278047707137/LimitlesS#1045
+
+[9.3019392490386963] 2019-03-23 18:21:56,804 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 950 in on_ready: Guild List:
+[9.3029386997222900] 2019-03-23 18:21:56,805 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 954 in on_ready:  - 6Chaotic of Oblivion
+[9.3039383888244629] 2019-03-23 18:21:56,806 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 954 in on_ready:  - TANG AND THE GANGBANG
+[9.3049392700195312] 2019-03-23 18:21:56,807 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 954 in on_ready:  - Dungeon Quest Nerds
+[9.3059380054473877] 2019-03-23 18:21:56,808 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 1010 in on_ready: Not bound to any text channels
+[9.3069384098052979] 2019-03-23 18:21:56,809 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 1036 in on_ready: Not autojoining any voice channels
+[9.3119337558746338] 2019-03-23 18:21:56,814 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 264 in _join_startup_channels: Found resumable voice channel Dungeon Quest Nerds/General
+[9.3129341602325439] 2019-03-23 18:21:56,815 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 279 in _join_startup_channels: Attempting to join Dungeon Quest Nerds/General
+[10.3523890972137451] 2019-03-23 18:21:57,854 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 704 in deserialize_queue: Deserializing queue for 541541288609316875
+[11.6041884422302246] 2019-03-23 18:21:59,106 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 423 in get_player: Created player via deserialization for guild 541541288609316875 with 0 entries
+[11.6051898002624512] 2019-03-23 18:21:59,107 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 295 in _join_startup_channels: Joined Dungeon Quest Nerds/General
+[11.6121847629547119] 2019-03-23 18:21:59,114 - DEBUG - musicbot.bot | In bot.py::MainThread(13816), line 511 in on_player_stop: Running on_player_stop
+[21.1401622295379639] 2019-03-23 18:22:08,642 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 2644 in on_message: 547000112220602368/AngelicsBlade#6921: ,summon
+[21.1441597938537598] 2019-03-23 18:22:08,646 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 1893 in cmd_summon: Joining Dungeon Quest Nerds/General
+[220.5682978630065918] 2019-03-23 18:25:28,070 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 2644 in on_message: 354561029847384065/furrarcool#4070: ,summon
+[220.5782942771911621] 2019-03-23 18:25:28,080 - INFO - musicbot.bot | In bot.py::MainThread(13816), line 1893 in cmd_summon: Joining Dungeon Quest Nerds/General
